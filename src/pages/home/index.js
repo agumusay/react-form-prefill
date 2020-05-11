@@ -46,7 +46,7 @@ export default class HomePage extends Component {
                 <input
                   name="used"
                   type="checkbox"
-                  checked={queryObject.includeUsed && true}
+                  checked={queryObject.includeUsed}
                   onChange={() => {}}
                 />
                 <span className="checkbox-field__label">Include used copies</span>
