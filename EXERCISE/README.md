@@ -18,7 +18,7 @@ If no query params are present, the form remains empty.
 
 http://localhost:3000/?customerRating=5&bookType=paperback,hardcover&language=english,german
 
-http://localhost:3000/?customerRating=3&bookType=e-book,hardcover&language=english&searchTerm=robin%20hobb
+http://localhost:3000/?customerRating=3&bookType=e-book,hardcover&language=english,german,russian&searchTerm=robin%20hobb&includeUsed=true
 
 Feel free to test with more URLs.
 
